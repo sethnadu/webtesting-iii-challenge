@@ -35,6 +35,6 @@ describe('<Dashboard />', () => {
     // expect(queryByText(/lock gate/i)).toBeFalsy()
     fireEvent.click(buttonlocked)
     expect(queryByText(/lock gate/i)).toBeTruthy()
-    expect(queryByText(/unlock Gate/i)).toBeFalsy()
+    expect(queryByText(/unlock Gate/i)).toBeFalsy() 
   })
 });
